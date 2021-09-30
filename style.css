@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap');
+*{
+    margin: 0;
+}
+.header{
+    margin: 0 auto;
+    font-family: 'Koh Santepheap', serif;
+
+}
+.header-menu {
+    font-family: 'Koh Santepheap', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: white;
+    font-weight: 700;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.filling {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.logo {
+    width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.avada-text{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.green{
+    font-size: 25px;
+    color: #6B8E23;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu span:hover
+{
+    text-decoration-line: underline;
+    text-decoration-color:#006400;
+    line-height: 2px;
+    
+}
+.menu span {
+    cursor: pointer;
+}
+.container {
+    max-width: 1200px;
+}
+.background{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.content {
+    font-family: 'Koh Santepheap', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    height: 500px;
+    justify-content: center;
+}
+.big-title {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.green-text {
+    font-size: 22px;
+    color: #6B8E23;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+.small-text {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.content button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #006400;
+    background-color: #6B8E23;
+    width: 220px;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 600;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bx {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    align-items: center ;
+    justify-content: space-between;
+}
+.learn-more-text {
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.responsive-design {
+    display: flex;
+    flex-direction: column;
+}
+.arrow-learn-more {
+    margin-top: 15px;
+}
+.arrow-learn-more span{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.recent-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.lines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.lines span {
+    margin-right: 10px;
+}
+.hr-lines{
+    border:none;
+    width: 1050px ;
+    height: 7px;
+    border-top: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.galery img {
+    width: 220px;
+    height: 170px;
+    padding: 30px;
+}
+.questions {
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.choose-line {
+    width: 350px;
+    border:none;
+    height: 7px;
+    border-top: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+}
+.choose {
+    display: flex;
+    flex-direction: column;
+
+}
+.choose p {
+    margin-right: 10px;
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.clients {
+    display: flex;
+    flex-direction: column;
+
+}
+.clients p {
+    margin-right: 10px;
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.response {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+    border: 2px solid #EEE8AA;
+    border-radius: 3px;
+    background-color: #FFFFE0;
+    text-align: center;
+    padding: 16px 0 16px 0;
+}
+
+.choose-option {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    color:gray;
+}
+.response:before,
+.response:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.choose-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.response:before {
+    left: 30px;
+    bottom: -32px;
+    border: 16px solid;
+    border-color: #EEE8AA transparent transparent #EEE8AA;
+}
+.response:after {
+    left: 35px;
+    bottom: -21px;
+    border: 12px solid;
+    border-color: #fff transparent transparent #fff;
+}
+.elements {
+    margin-bottom: 15px;
+}
+.bottom {
+    background-color: #101010;
+    height: 320px;
+}
+.block-text{
+    height: 220px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.container-blocks {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-fkickr img {
+    height: 55px;
+    width: 55px;
+}
+.block-post {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 220px;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.block-fkickr {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 220px;
+}
+
+.hr-line-block-recent{
+    width: 240px;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+.block-twitter {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 220px;
+}
+.block-recent{
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.footer {
+    background-color: black;
+}
+.footer-left {
+    color: white;
+    font-family: 'Koh Santepheap', serif;
+}
+.footer-right {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+mark {
+    background-color: black;
+    color: blanchedalmond;
+}
+.comment{
+    color: gray;
+}
